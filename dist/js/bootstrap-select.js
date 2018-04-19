@@ -1951,7 +1951,7 @@
 
       this.$newElement.on('show.bs.dropdown', function() {
         if (version.major > 3 && !that.dropdown) {
-          that.dropdown = that.$button.data('bs.dropdown');
+          that.dropdown = that.$button.data('bs.dropdown') || {};
           that.dropdown._menu = that.$menu[0];
         }
       });
