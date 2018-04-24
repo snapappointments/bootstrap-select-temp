@@ -216,7 +216,7 @@ select.selectpicker {
   .dropdown-toggle {
     // necessary to maintain proper button height with Bootstrap 3
     &:before {
-      content: '';
+      content: '\00a0';
       display: inline-block;
     }
 
