@@ -1,7 +1,7 @@
 <h1 align="center">bootstrap-select</h1>
 
 <p align="center">
-	<strong>The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more. Now with Bootstrap 4 support.</strong>
+	<strong>The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more. Now with Bootstrap 4 support and material design theme</strong>
 </p>
 
 <p align="center">
@@ -36,6 +36,8 @@
 ## Demo and Documentation
 
 You can view a live demo and some examples of how to use the various options [here](https://developer.snapappointments.com/bootstrap-select).
+
+You can play with the material design theme [here](http://jsfiddle.net/djibe89/yvbts5e9/)
 
 Bootstrap-select's documentation, included in this repo in the root directory, is built with MkDocs and hosted at https://developer.snapappointments.com/bootstrap-select. The documentation may also be run locally.
 
@@ -79,6 +81,7 @@ Checkout the [documentation](https://developer.snapappointments.com/bootstrap-se
 **N.B.**: The CDN is updated after the release is made public, which means that there is a delay between the publishing of a release and its availability on the CDN. Check [the GitHub page](https://github.com/snapappointments/bootstrap-select/releases) for the latest release.
 
 * [//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css](//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css)
+* [//cdn.rawgit.com/djibe/bootstrap-select/v1.13.0-dev/dist/css/bootstrap-select-daemonite.min.css](////cdn.rawgit.com/djibe/bootstrap-select/v1.13.0-dev/dist/css/bootstrap-select-daemonite.min.css) (Material design standalone theme v1, replaces bootstrap-select.css)
 * [//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js](//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js)
 * //cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/i18n/defaults-*.min.js (The translation files)
 
