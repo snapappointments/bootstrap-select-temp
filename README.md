@@ -37,7 +37,9 @@
 
 You can view a live demo and some examples of how to use the various options [here](https://developer.snapappointments.com/bootstrap-select).
 
-You can play with the material design theme [here](http://jsfiddle.net/djibe89/yvbts5e9/)
+<strong>You can play with the material design theme [here](http://jsfiddle.net/djibe89/yvbts5e9/).
+
+It adds many enhencements to the original plugin, with left-aligned animated checkboxes, textfield aspect, animated opening of dropdown ... and much more.</strong>
 
 Bootstrap-select's documentation, included in this repo in the root directory, is built with MkDocs and hosted at https://developer.snapappointments.com/bootstrap-select. The documentation may also be run locally.
 
