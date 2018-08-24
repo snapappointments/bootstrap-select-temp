@@ -1341,8 +1341,14 @@
           if (selectedItemsInTitle.length < 100 && that.options.selectedTextFormat !== 'count' || selectedItems.length === 1) {
             if (that.options.hideDisabled && (option.disabled || option.parentNode.tagName === 'OPTGROUP' && option.parentNode.disabled)) return;
 
-            var thisData = this.selectpicker.main.data[i].data,
-                icon = thisData.icon && that.options.showIcon ? '<i class="' + that.options.iconBase + ' ' + thisData.icon + '"></i> ' : '',
+            var thisData = this.selectpicker.main.data[i].data;
+            if (thisData == null){
+              selectedItems.pop();
+              option.selected = false;
+              continue;
+            }
+
+            var icon = thisData.icon && that.options.showIcon ? '<i class="' + that.options.iconBase + ' ' + thisData.icon + '"></i> ' : '',
                 subtext,
                 titleItem;
 
